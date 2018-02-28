@@ -9,11 +9,11 @@ import com.alibaba.jvm.sandbox.module.exampe.tcpwm.impl.SocketWatcherImplHotspot
 public interface SocketWatcher {
 
     /**
-     * 观察IO吞吐量
+     * 观察IO
      *
-     * @param ioThroughput IO吞吐
+     * @param ioPipe IO管道
      */
-    void watching(IoPipe ioThroughput);
+    void watching(IoPipe ioPipe);
 
     class Factory {
 
