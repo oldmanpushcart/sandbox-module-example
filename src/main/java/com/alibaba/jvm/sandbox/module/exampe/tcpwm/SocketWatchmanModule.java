@@ -30,7 +30,7 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
  * Socket守望者
  */
 @MetaInfServices(Module.class)
-@Information(id = "ExpSocketWm", isActiveOnLoad = false, author = "oldmanpushcart@gmail.com", version = "0.0.5")
+@Information(id = "ExpSocketWm", isActiveOnLoad = false, author = "oldmanpushcart@gmail.com", version = "0.0.6")
 public class SocketWatchmanModule implements Module, ModuleLifecycle, IoPipe, Runnable {
 
     // 注入模块控制器(控制当前模块状态)
